@@ -1,0 +1,34 @@
+[user]
+	email = 
+	name = 
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = red
+	local = cyan
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = green
+	changed = red
+	untracked = cyan
+[alias]
+	c = checkout
+	b = branch
+	fo = fetch origin
+	puso = push origin
+	pulo = pull origin
+	com = commit -m
+	r = reset
+	l = log
+	d = diff
+	s = status -uno
+	
+	
+	
