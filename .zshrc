@@ -9,5 +9,3 @@ PROMPT='%n@%{%F{10}%} %9c%{%F{11}%} ($(parse_git_branch))%{%F{none}%} $ '
 
 alias ipconfig='curl ifconfig.me/ip '
 alias ..='cd ..'
-
-export PATH=$PATH:/usr/local/go/bin
