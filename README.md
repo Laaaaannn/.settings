@@ -5,4 +5,4 @@
   - `ln -s ~/.settings/.gitconfig ~/.gitconfig`
   - `ln -s ~/.settings/.zshrc ~/.zshrc`
   - `sh link-settings.sh`
-- reset author in git `git commit --amend --reset-author
+- reset author in git `git commit --amend --reset-author`
