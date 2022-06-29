@@ -1,13 +1,92 @@
 {
+  "diffEditor.ignoreTrimWhitespace": false,
+  // editor
+  "editor.bracketPairColorization.enabled": true,
   "editor.tabSize": 2,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.detectIndentation": false,
+  "editor.guides.bracketPairs": true,
+  "editor.fontWeight": "normal",
+  "editor.largeFileOptimizations": false,
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  "editor.codeLens": false,
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "blink",
+  "editor.suggestSelection": "first",
+  "editor.guides.indentation": false,
+  "editor.renderControlCharacters": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.renderLineHighlight": "all",
+  "editor.fontLigatures": true,
+  // terminal
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // workbench
+  "workbench.activityBar.visible": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#070808",
+    "quickInput.background": "#1d2021",
+    "quickInputList.focusBackground": "#070808",
+    "editor.background": "#070808",
+    "sideBar.background": "#000000",
+    "statusBar.background": "#070808",
+    "activityBar.background": "#070808",
+    "editorLineNumber.activeForeground": "#cccccc"
+  },
+  "workbench.fontAliasing": "antialiased",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.showTabs": false,
+  "workbench.editor.enablePreview": false,
+  // explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // files
   "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+  // thunder client
+  "thunder-client.codeSnippetLanguage": "js-fetch",
+  // prettier
+  "prettier.singleQuote": true,
+  // window
+  "window.zoomLevel": 1,
+  // javascript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // redhat
+  "redhat.telemetry.enabled": false,
+  "search.searchOnType": false,
+  // specific file format
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
