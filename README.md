@@ -4,3 +4,4 @@
 - Symlink the .gitconfig and .zshrc by using:
   - `ln -s ~/.settings/.gitconfig ~/.gitconfig`
   - `ln -s ~/.settings/.zshrc ~/.zshrc`
+  - `sh link-settings.sh`
