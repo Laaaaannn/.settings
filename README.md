@@ -1,5 +1,3 @@
-# .settings
-
 ## Steps to bootstrap a new Mac
 
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
@@ -34,4 +32,10 @@ sh link-settings.sh
 brew bundle --file ~/.settings/Brewfile
 # ...or move to the directory first.
 cd ~/.settings && brew bundle
+```
+
+## NPM
+
+```
+https://github.com/deoxxa/npmrc | npm i npmrc -g 
 ```
