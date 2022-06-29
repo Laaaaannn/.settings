@@ -1,6 +1,4 @@
-## My Development Setting
-
-This repository is for my setting in vscode, zsh & git.
+## .settings
 
 - Clone this repository in your ~./user directory.
 - Symlink the .gitconfig and .zshrc by using:
