@@ -1,4 +1,4 @@
-## .settings
+# .settings
 
 ## Steps to bootstrap a new Mac
 
