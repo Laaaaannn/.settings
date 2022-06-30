@@ -36,6 +36,7 @@ cd ~/.settings && brew bundle
 
 ## NPM
 
+Switching between private feed & public feed
 ```
 https://github.com/deoxxa/npmrc | npm i npmrc -g 
 ```
